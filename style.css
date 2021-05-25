@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.userCard {
+    border: 4px solid black;
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;
+    background-color:whitesmoke ;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    height: 35%;
+}
+
+.circle{
+    background-color: gold;
+    height: 80px;
+    width: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 51px;
+    left: 22px;
+    border-radius: 50%;
+
+}
+
+#user {
+    height: 10%;
+    display: flex;
+    left: 17.4%;
+    bottom: 79.9%;
+    position: absolute;
+   }
+#map, #gear {
+    height: 20px;
+}
+p{
+    position: relative;
+    margin: 0;
+    bottom: 180px;
+    left: 165px;
+}
+.location{
+    width: 190px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:165px;
+    bottom: 180px;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 170px;
+    left: 165px;
+}
+h1{
+    width: 300px;
+    position: relative;
+    bottom: 185px;
+    left: 165px;
+    margin: 0;
+}
+h3, a {
+    margin-left: 5px;
+}
